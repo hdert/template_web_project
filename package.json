@@ -10,7 +10,8 @@
     "start": "parcel serve --dist-dir 'dev/' './src/pug/*.pug'",
     "preparcel-build": "preparcel-build",
     "parcel-build": "parcel build --no-optimize --no-content-hash --dist-dir 'dist/' './src/pug/*.pug'",
-    "build": "run-s parcel-build css"
+    "build": "run-s parcel-build css",
+    "gh-pages-push": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "bootstrap": "^5.0.0-beta3",
