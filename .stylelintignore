@@ -1,0 +1,5 @@
+#https://github.com/twbs/bootstrap-npm-starter/blob/main/.stylelintignore
+
+**/*.min.css
+**/dist/
+node_modules
