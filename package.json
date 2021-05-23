@@ -1,5 +1,5 @@
 {
-  "name": "dtglvl2assessment2021",
+  "name": "template_web_project",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -37,12 +37,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hdert/dtgLvl2Assessment2021.git"
+    "url": "git+https://github.com/hdert/template_web_project.git"
   },
   "author": "",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/hdert/dtgLvl2Assessment2021/issues"
+    "url": "https://github.com/hdert/template_web_project/issues"
   },
-  "homepage": "https://github.com/hdert/dtgLvl2Assessment2021#readme"
+  "homepage": "https://github.com/hdert/template_web_project#readme"
 }
