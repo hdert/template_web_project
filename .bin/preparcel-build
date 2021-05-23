@@ -1,0 +1,3 @@
+#!/bin/dash
+
+find dist/ -exec bash -c 'printf "%q\n" "$@"' sh {} + | grep -v ".gitignore\|CNAME\|dist/\$\|dist/up_/img\$\|dist/up_/img/icons\$\|icons/site.webmanifest" | xargs -r rm -r

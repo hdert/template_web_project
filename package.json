@@ -8,7 +8,7 @@
     "css-purge": "purgecss --keyframes --css dist/*.css --content dist/*.html --content dist/*.js --output dist/",
     "css": "run-s css-prefix css-purge css-lint",
     "start": "parcel serve --dist-dir 'dev/' './src/pug/*.pug'",
-    "preparcel-build": "preparcel-build",
+    "preparcel-build": "./.bin/preparcel-build",
     "parcel-build": "parcel build --no-optimize --no-content-hash --dist-dir 'dist/' './src/pug/*.pug'",
     "build": "run-s parcel-build css",
     "gh-pages-push": "git subtree push --prefix dist origin gh-pages"
