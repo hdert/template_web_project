@@ -11,7 +11,8 @@
     "preparcel-build": "./.bin/preparcel-build",
     "parcel-build": "parcel build --no-optimize --no-content-hash --dist-dir 'dist/' './src/pug/*.pug'",
     "build": "run-s parcel-build css",
-    "gh-pages-push": "git subtree push --prefix dist origin gh-pages"
+    "gh-pages-push": "git subtree push --prefix dist origin gh-pages",
+    "gh-pages-subtree-create": "git subtree split --prefix dist --branch gh-pages"
   },
   "dependencies": {
     "bootstrap": "^5.0.0-beta3",
