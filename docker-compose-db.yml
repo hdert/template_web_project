@@ -4,7 +4,7 @@ services:
     volumes:
       - ./db:/var/lib/mysql
     env_file:
-      - db.env
+      - ./build/db/db.env
   adminer:
     image: docker.io/adminer:latest
     ports:
