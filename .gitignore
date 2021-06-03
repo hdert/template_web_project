@@ -5,4 +5,4 @@ package-lock.json
 .parcel-cache/
 dev/
 *.xcf
-db/
+dbfiles/

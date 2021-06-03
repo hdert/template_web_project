@@ -2,7 +2,7 @@ services:
   db:
     build: ./build/db
     volumes:
-      - ./db:/var/lib/mysql
+      - ./dbfiles:/var/lib/mysql
     env_file:
       - ./build/db/db.env
   adminer:
