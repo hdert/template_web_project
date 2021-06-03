@@ -1,0 +1,21 @@
+services:
+  db:
+    build: ./build/db
+    volumes:
+      - ./db:/var/lib/mysql
+    env_file:
+      - db.env
+  adminer:
+    image: docker.io/adminer:latest
+    ports:
+      - 8081:8080
+  phpmyadmin:
+    image: docker.io/phpmyadmin:apache
+    ports:
+      - 8080:80
+  web:
+    build: ./build/php
+    volumes:
+      - .:/var/www/html/
+    ports:
+      - 80:80
